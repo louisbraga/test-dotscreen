@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test BRAGA - Connect 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Connect 4</h1>
+    </header>
+
+    <main>
+        <!-- Home Screen -->
+        <section id="welcome-screen">
+            <h2>Welcome to Connect 4</h2>
+            <p>Align 4 tokens of the same color to win</p>
+            <button id="start-button" type="button">
+                Start Game
+            </button>
+        </section>
+
+
+        <!-- Game Screen -->
+        <section id="game-screen" hidden>
+            <p id="turn-indicator"></p>
+            <p id="turn-count">Turn : 0</p>
+            <div id="game-board" class="game-board"></div>
+            <button id="restart-button" type="button" hidden>
+                Restart
+            </button>
+        </section>
+    </main>
+<footer>
+    <p>Made by Louis Braga - 17/10/2026</p>
+</footer>
+
+</body>
+
+</html>
